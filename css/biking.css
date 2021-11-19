@@ -41,18 +41,6 @@ header nav ul li a:hover{
 header nav ul li:first-child a{
     border-left: 1px solid rgba(255, 255, 255, .5);
 }
-#main ul{
-    display: flex;
-    margin: 0em;
-}
-
-#main ul li{
-    width: 20em;
-    padding: 1em 5em;
-}
-#main ul li img {
-    width: 20em;
-}
 footer{
     display: flex;
     background-color: #F2F2F2;
