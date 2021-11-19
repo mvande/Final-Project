@@ -1,0 +1,26 @@
+.slide{
+    width:100%;
+}
+.main{
+    clear: both;
+}
+.main ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #594C47;
+    margin: 1em 0em;
+}
+
+.main ul li{
+    width: 20em;
+    padding: 1em 2.5em;
+    
+}
+.main ul li img {
+    width: 20em;
+}
+.main ul li p {
+    margin: .75em 0em 0em 0em;
+}

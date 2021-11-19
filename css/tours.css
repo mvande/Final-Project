@@ -1,69 +1,52 @@
-body{
-    margin: 0em;
-    background-color: #6D8C87;
+.main{
+    position: relative;
 }
-li{
-    list-style-type: none;
-    display: block;
+.main h1{
+    font-size: 4em;
+    color: black;
 }
-header{
-    display: flex;
-    background-color: #F2F2F2;
+.main .seasonal_promo{
+    position: relative;
 }
-header #logo {
-    height: 5em;
-    padding-right: 10em;
-    padding-left: 2.5em;
-    position:relative;
-    top: 0.4em;
+.main .seasonal_promo img{
+    width: 100%;
+    padding: 1em 0em;
 }
-header nav ul{
-    margin: 0em;
-    padding: 0em;
+.main .seasonal_promo .text_button{
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+}
+.main section{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%;
+}
+.main section div{
+    padding: 1em;
+}
+.main section .utah img{
+    width: 100%;
+}
+.main section .glacier img{
+    width: 100%;
+}
+.main section .yosemite img{
+    width: 100%;
+}
+.main section .oregon img{
+    width: 100%;
+}
+.main section div button{
+    position: relative;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main button#bottom {
     text-align: center;
-    display: flex;
-    justify-content: center;
-}
-header nav ul li a{
-    padding: 2.5em 1em;
-    color: #ccc;
-    display: inline-block;
-    text-decoration: none;
-    font-family: Helvetica;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: all .3s linear;
-    border-right: 1px solid rgba(255, 255, 255, .5);
-}
-header nav ul li a:hover{
-
-}
-header nav ul li:first-child a{
-    border-left: 1px solid rgba(255, 255, 255, .5);
-}
-
-footer{
-    display: flex;
-    background-color: #F2F2F2;
-}
-footer nav ul{
-    margin: 0em;
-    padding: 0em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-footer nav ul li p{
-    padding: 2.5em 1em;
-    color: #ccc;
-    display: inline-block;
-    text-decoration: none;
-    font-family: Helvetica;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: all .3s linear;
-    border-right: 1px dotted rgba(255, 255, 255, .5);
-}
-#socials ul{
-    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 1em;
 }

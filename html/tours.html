@@ -2,13 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/global.css">
         <link rel="stylesheet" href="../css/tours.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">        
         <title>Outdoor Adventures - Tours</title>
     </head>
     <body>
         <header>
-            <a href = "../index.html"> <img id="logo" src="../images/outdoor-adventure-logo-color.svg" alt="Home"> </a>
+            <a href = "../index.html" id="logo"> 
+                <img id="logo" src="../images/outdoor-adventure-logo-color.svg" alt="Home"> 
+            </a>
             <nav>
                 <ul>
                     <li><a href="../html/biking.html">Biking</a></li>
@@ -18,7 +22,7 @@
                     <li><a href="#">Locations</a></li>
                     <li><a href="#">Our Mission</a></li>
                     <li>
-                        <div id="socials">
+                        <div class="socials">
                             <ul>
                                 <li>
                                     <a href="#">
@@ -41,44 +45,59 @@
                 </ul>
             </nav>
         </header>
-        <div id="main">
-          <ul>
-            <li>
-              <img id="tour_1" src="images/tour_1.jpg" alt="Visit Utah">
-            </li>
-            <li>
-              <img id="tour_2" src="images/tour_2.jpg" alt="Visit Glacier">
-            </li>
-            <li>
-              <img id="tour_3" src="images/tour_3.jpg" alt="Visit Yosemite">
-            </li>
-            <li>
-              <img id="tour_4" src="images/tour_4.jpg" alt="Visit Oregon">
-            </li>
-            </ul>
-        </div>
-
-        <footer>
-            <p>Copyright</p>
-            <div id="socials">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                </ul>
+        <div class="main">
+            <div class="seasonal_promo">
+                <img id="season" src="../images/yellowstone-promo.jpg" alt="Promotion">
+                <div class="text_button">
+                    <h1>Seasonal Promotion</h1>
+                    <button>Shop Now</button>
+                </div>
             </div>
+            <section>
+                <div class="utah">
+                    <img id="tour_1" src="../images/tour_1.jpg" alt="Visit Utah">
+                    <button>Visit Utah</button>
+                </div>
+                <div class="glacier">
+                    <img id="tour_2" src="../images/tour_2.jpg" alt="Visit Glacier">
+                    <button>Visit Glacier</button>
+                </div>
+                <div class="yosemite">
+                    <img id="tour_3" src="../images/tour_3.jpg" alt="Visit Yosemite">
+                    <button>Visit Yosemite</button>
+                </div>
+                <div class="oregon">
+                    <img id="tour_4" src="../images/tour_4.jpg" alt="Visit Oregon">
+                    <button>Visit Oregon</button>
+                </div>
+            </section>
+            <button id="bottom">Shop for your trip</button>
+        </div>
+        <footer>
+            <ul>
+                <li><p>Copyright</p></li>
+                <li>
+                    <div class="socials">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>
