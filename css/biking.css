@@ -1,0 +1,35 @@
+.main .top{
+    padding-top: 8em;
+    padding-bottom: 2em;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: #594C47;
+
+}
+.main .top img{
+    margin-left: 1em;
+    width: 50%;
+}
+.main .top h2{
+    background-color: #F2F2F2;
+    margin-right: 1em;
+}
+
+.main section{
+    /* background-color: #594C47; */
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 30% 20%;
+    justify-content: center;
+}
+
+.main section div{
+    background-color: #F2F2F2;
+    border: 1px solid black;
+    width: 230px;
+    height: 255px;
+    text-align: center;
+    padding: 1em;
+    margin: 2em;
+}

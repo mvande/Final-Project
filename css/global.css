@@ -8,6 +8,15 @@ li{
 h1, h2, h3, p{
     color: #6D8C87;
 }
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 2em;
+}
 header{
     display: flex;
     background-color: #F2F2F2;
