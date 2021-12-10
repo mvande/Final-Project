@@ -7,6 +7,7 @@ li{
 }
 h1, h2, h3, p{
     color: #6D8C87;
+    font-family: 'Bebas Neue', cursive;
 }
 h1{
     font-size: 4em;
@@ -17,11 +18,29 @@ h2{
 h3{
     font-size: 2em;
 }
+a{
+    text-decoration: none;
+}
+button{
+    display: inline-block;
+    text-align: center;
+    background-color: #F2F2F2;
+    color: #315952;
+    border-radius: 10px;
+    border:5em linear #315952;
+    padding: 20px;
+    width: 33%;
+    margin: 5px;
+    transition: all 0.5s linear;
+}
+button a{
+    color: #315952;
+}
 header{
     display: flex;
     background-color: #F2F2F2;
     position: fixed;
-    /*justify-content: right; */
+    justify-content: right;
     width: 100%;
     z-index: 2;
 }
@@ -49,8 +68,7 @@ header nav ul li a{
     padding: 2.5em 1.5em;
     color: #6D8C87;
     display: inline-block;
-    text-decoration: none;
-    font-family: Helvetica;
+    font-family: 'Bebas Neue', cursive;
     font-size: 1em;
     text-transform: uppercase;
     font-weight: bold;
@@ -88,7 +106,6 @@ footer ul li i{
     color: #6D8C87;
     display: inline-block;
     text-decoration: none;
-    font-family: Helvetica;
     text-transform: uppercase;
     transition: all .3s linear;
     border-right: 1px dotted rgba(255, 255, 255, .5);
@@ -98,7 +115,6 @@ footer ul li p{
     color: #6D8C87;
     display: inline-block;
     text-decoration: none;
-    font-family: Helvetica;
     text-transform: uppercase;
     transition: all .3s linear;
     border-right: 1px dotted rgba(255, 255, 255, .5);
